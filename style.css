@@ -1,0 +1,93 @@
+body {
+   /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+
+.masthead{
+  padding: 6em 0;
+  background-image: url('https://ununsplash.imgix.net/photo-1413913619092-816734eed3a7?fit=crop&fm=jpg&h=450&q=75&w=725');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFCF33;
+  /* text-shadow: 2px 2px  #FFFFFF,
+                        -2px -2px  #FFFFFF; */
+
+  }
+.masthead-heading {
+    text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em; 
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serifl;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+        max-width: 38em;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:2em;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.content-footer {
+       background-image: url('https://ununsplash.imgix.net/uploads/141202616623001715bb7/c1b3b9b0?fit=crop&fm=jpg&h=475&q=75&w=725')
+}
+
+.introduction > p,
+.location > p,
+.content-footer  {
+  /* Typography Declarations */
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+.footer-credit {
+  /*Typography Declarations */
+    font-size: .625em;
+    font-weight: 400;
+    letter-spacting: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
