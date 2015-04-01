@@ -1,7 +1,7 @@
 body {
    /* Typography Declarations */
   color: #222222;
-  font-size: 1em;
+  font-size: 100%;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 .masthead-heading,
@@ -31,7 +31,7 @@ body {
   /* Typography Declarations */
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
-  font-size: 6em;
+  font-size: 8em;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   text-shadow:
@@ -53,6 +53,9 @@ body {
 .social > li {
   display: inline-block;
 }
+.social {
+  font-size: .5em; 
+}
 .content-footer {
        background-image: url('https://ununsplash.imgix.net/uploads/141202616623001715bb7/c1b3b9b0?fit=crop&fm=jpg&h=475&q=75&w=725')
 }
@@ -62,6 +65,7 @@ body {
   /* Typography Declarations */
   font-weight: 800;
   letter-spacing: 0.05em;
+
 }
 .footer-credit {
   /*Typography Declarations */
@@ -85,6 +89,9 @@ section > h1 {
     padding: 3em 0;
   }
   .masthead-heading {
-    font-size: 3em;
+    font-size: 3.0em;
   }
-}
+  .content-footer {
+    padding: 3em 0;
+    font-size: .025em !important;
+ }
